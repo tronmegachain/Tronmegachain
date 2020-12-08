@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+        integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+
+    <link rel="icon" href="assets/logo.png" type="image/icon type">
+    <title>TronMegaChain</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+
+    <style>
+        .row {
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script>
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"> </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+        })
+    </script>
+
+
+    <!--No need to change anything here-->
+    <div class="mynav">
+
+        <div class="row text-center" style="margin: 0px;padding-top: 10px;">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="brand_div">
+                    <img src="assets/logo.png" style="border-radius: 30px;">TronMegaChain</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ">
+
+                <div style="font-weight: 500;text-shadow: .1px .1px 2px white;color: whitesmoke;"><a class="navlink"
+                        href=".">Home</a>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ">
+                <div style="font-weight: 500;text-shadow: .1px .1px 2px white;color: whitesmoke;"><a class="navlink"
+                        href="#this_about">About</a>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ">
+                <div style="font-weight: 500;text-shadow: .1px .1px 2px white;color: whitesmoke;"><a class="navlink"
+                        href="https://tronscan.org/#/contract/TKfSHZcK2Rn5rdJy3VgQrzikSP4TagDAiM/code"
+                        target="_blank">Contract[Tronscan]</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 " id="contact_us_here">
+                <div style="padding-top: 20px;">
+                    <span style="padding-top: 20px;">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"
+                                style="color: #ffffff ; font-size: 30px;"></i></a>&nbsp;&nbsp;
+
+                        <a href="https://t.me/Tronmegachain" target="_blank"><i class="fab fa-telegram "
+                                style="color: #ffffff; font-size: 30px;"></i></a>
+                    </span>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        <hr style="border-color: whitesmoke;">
+        <div class="row">
+
+            <div data-aos="zoom-in" class="col-sm-6 text-center mt-5">
+                <h1 class="text-light  m-3" style="font-weight: bolder; ">Earn On Smart Contract</h1>
+                <h3 class="text-light  m-3" style="font-weight: bolder; ">Get Daily ROI on Investment</h3>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-sm-3 col-md-4 col-xl-4 m-2">
+                        <div class="container p-1 btn-hover2 color-2">
+                            <h5 class="mt-2" style="font-weight: bold;">Diamond</h5>
+                            <h4 style="font-weight: bolder;">1%</h4>
+                            <p>for Forever</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-3 col-md-4 col-xl-4 m-2">
+                        <div class="container p-1 btn-hover2 color-4">
+                            <h5 class="mt-2" style="font-weight: bold;">Platinum</h5>
+                            <h4 style="font-weight: bolder;">2%</h4>
+                            <p>for 45 days</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row justify-content-center mt-3">
+                    <div class="col-sm-3 col-md-4 col-xl-4 m-2 text-center">
+                        <div class="container p-1 btn-hover2 color-10">
+                            <h5 class="mt-2" style="font-weight: bold;">Gold </h5>
+                            <h4 style="font-weight: bolder;">2.5%</h4>
+                            <p>for 25 days</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <h3 class="text-light m-3" style="font-weight: bolder; ">DECENTRALIZED INVESTMENT FUND WITH AN OPEN
+                    SMART CONTRACT</h3>
+
+
+
+
+            </div>
+            <div data-aos="zoom-in" class="col-sm-6 text-center">
+                <img src="assets/1.png" alt="Nature" class="responsive" width="600" height="600">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--Contract Informations-->
+
+    <div data-aos="fade-up" class="container-fluid text-center p-3" style="background-color: #eaf1ff;">
+    
+        <p>Total Invested Amount</p>
+    <h1> <span id="contractbalance">...</span></h1>
+
+    <p class="mt-3">Your Tron Wallet:  <span id="currentuseraddress" style="font-weight:700;">...</span></p>
+    <p>Your Wallet Balance: <span style="font-weight: 700;" id="currentuserbalance">...</span></p>
+    
+    </div>
+
+
+    <!--Assign IDS for input and buttons-->
+    <!--Inves Panels-->
+
+    <div data-aos="zoom-in" class="container-fluid" style="background-color: whitesmoke;">
+
+        <div class="container pt-5">
+            <h2 class="text-center mt-3"
+                style="text-decoration: underline; font-weight: bold;font-family: 'Russo One', sans-serif;">INVESTMENT
+                PANELS</h2>
+
+        </div>
+        <div class="row justify-content-center mt-3 p-3">
+
+            <!--Diamond Plan-->
+            <div data-aos="flip-right" class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-2">
+                <div class="container text-center p-3" style="background-color: rgb(204, 250, 245); border-radius:15px">
+                    <div class="container" style="background: linear-gradient(to left, #b5ccfc, #4da0ff );
+                    ; border-radius: 20px; padding:10px">
+                        <h3 class="mt-1" style="font-weight: bolder; text-decoration: underline;">Diamond Plan</h3>
+                        <p style="font-size: larger; font-weight: bold;"> Earn 1% per day</p>
+                    </div>
+                    <div class="text-justify mt-4 ml-3 mb-4">
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> 1% profit
+                            rate
+                            on
+                            invest</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Plan Works
+                            Forever</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Withdraw
+                            Profit Anytime</p>
+
+                    </div>
+                    <p class="mt-3" style="font-weight: 500;"> ENTER INVESTMENT AMOUNT: </p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+
+                        <!--Input Diamond-->
+                        <input class="p-1 border border-info" id="input_panel_1" placeholder="1000" type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+
+                    <!--Button Diamond-->
+                    <button class="btn-hover color-1" id="button_panel_1">INVEST NOW<span
+                            class="float-right mr-4">></span></button>
+                    <p class="text-danger mt-3">Min. amount 100 TRX to deposite </p>
+
+                    <p class="text-danger mt-3">You should have at least 3 TRX more for transaction fee</p>
+                </div>
+            </div>
+
+
+            <!--Platinum Plan-->
+            <div data-aos="flip-right" class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-2">
+                <div class="container text-center p-3" style="background-color: rgb(204, 250, 245); border-radius:15px">
+                    <div class="container" style="background: linear-gradient(to left, #fffcfc, #b9b9b9);
+                    ; border-radius: 20px; padding:10px">
+                        <h3 class="mt-1" style="font-weight: bolder; text-decoration: underline;">Platinum Plan</h3>
+                        <p style="font-size: larger; font-weight: bold;"> Earn 2% per day</p>
+                    </div>
+
+                    <div class="text-justify mt-4 ml-3 mb-4">
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> 2% profit
+                            rate
+                            on
+                            invest</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Plan Works
+                            for 45 days</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Withdraw
+                            Profit Anytime</p>
+
+                    </div>
+
+                    <p class="mt-3" style="font-weight: 500;"> ENTER INVESTMENT AMOUNT: </p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+
+
+                        <!--Input Silcver-->
+                        <input class="p-1 border border-info" id="input_panel_2" placeholder="1000" type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+
+
+                    <!--Button Silver-->
+                    <button class="btn-hover color-1" id="button_panel_2">INVEST NOW<span
+                            class="float-right mr-4">></span></button>
+                    <p class="text-danger mt-3">Min. amount 100 TRX to deposite </p>
+
+                    <p class="text-danger mt-3">You should have at least 3 TRX more for transaction fee</p>
+                </div>
+            </div>
+
+            <!--Gold Plan-->
+
+            <div data-aos="flip-right" class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-2">
+                <div class="container text-center p-3" style="background-color: rgb(204, 250, 245); border-radius:15px">
+                    <div class="container" style="background: linear-gradient(to left, #fff490, #ffea31);
+                    ; border-radius: 20px; padding:10px">
+                        <h3 class="mt-1" style="font-weight: bolder; text-decoration: underline;">Gold Plan</h3>
+                        <p style="font-size: larger; font-weight: bold;"> Earn 2.5% per day</p>
+                    </div>
+                    <div class="text-justify mt-4 ml-3 mb-4">
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> 2.5% profit
+                            rate
+                            on
+                            invest</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Plan Works
+                            for 25 days</p>
+                        <p> <i class="fa fa-plus-circle" aria-hidden="true" style="color: greenyellow;"></i> Withdraw
+                            Profit Anytime</p>
+
+                    </div>
+                    <p class="mt-3" style="font-weight: 500;"> ENTER INVESTMENT AMOUNT: </p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+
+                        <!--Input Gold-->
+                        <input class="p-1 border border-info" id="input_panel_3" placeholder="1000" type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+
+                    </div>
+
+
+                    <!--Button GOld-->
+                    <button class="btn-hover color-1" id="button_panel_3">INVEST NOW<span
+                            class="float-right mr-4">></span></button>
+                    <p class="text-danger mt-3">Min. amount 100 TRX to deposite </p>
+
+                    <p class="text-danger mt-3">You should have at least 3 TRX more for transaction fee</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    
+
+
+    <!--User Information Section-->
+
+    <!--Assign ID  to spans only and then use getelementbyid  and innerhtm in js-->
+
+    <div data-aos="zoom-in" class="container-fluid" style="background-color: whitesmoke;">
+        <div class="container" style="background-color: rgb(255, 245, 226);">
+            <h2 class="text-center mb-3 mt-3 pt-3"
+                style="font-family: 'Russo One', sans-serif; text-decoration:underline">USER INFORMATION</h2>
+
+            <p class="text-center" style="font-weight: 500;">Updates Every Second</p>
+
+            <div class="row mt-3 p-1">
+                <div data-aos="zoom-out-down" class="col-sm-6 col-md-6 col-xl-6 mb-2">
+                    <div class="container p-3" style="background-color: rgb(255, 229, 225); border-radius: 15px;">
+                        <h3 class="text-center">User Info</h3>
+                        <h5 class="text-center">Total Invested Amount : <span id="total_invested_amount">XXXXXXX</span></h5>
+                        <h5 class="text-center">Total Profit : <span id="total_profit">XXXXXXX</span></h5>
+
+                        <h5 class="text-center">Total Referral Profit : <span id="total_referal_profit">XXXXXXX</span>
+                            </h5>
+
+                    </div>
+                </div>
+
+
+                <div data-aos="zoom-out-down" class="col-sm-6 col-md-6 col-xl-6 mb-2">
+                    <div class="container p-3" style="background-color: rgb(255, 229, 225);border-radius: 15px;">
+                        <h3 class="text-center">User Panels</h3>
+
+                        <h5 class="text-center">Diamond : <span id="panel_1_inv_amt">XXXXXXX</span> </h5>
+
+                        <h5 class="text-center">Platinum : <span id="panel_2_inv_amt">XXXXXXX</span> </h5>
+
+                        <h5 class="text-center">Gold : <span id="panel_3_inv_amt">XXXXXXX</span> </h5>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Withdraw Section            col-sm-4 col-md-4 col-xl-4 mb-2 p-2-->
+
+    <div data-aos="zoom-in" class="container-fluid"
+        style="background-color: #fafafa;margin-top: 40px;margin-bottom: 40px;padding-top: 40px;padding-bottom: 60px;">
+
+        <h2 class="text-center mb-3 mt-3 pt-3" style="font-family: 'Russo One', sans-serif; text-decoration:underline">
+            Withdraw Section</h2>
+
+        <p class="text-center" style="font-weight: 500;">Updates Every Second</p>
+
+        <div class="row text-center p-3">
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container"
+                    style="background-color: rgb(191, 248, 245); border-radius: 15px; padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700;margin-bottom: 40px;">Diamond Plan</h3>
+                    <p style="font-size: 20px;">Your Total Profit Till Time <br><span
+                            style="font-size: 25px;font-weight: 700;" id="profit_p1_ps">XXXXXX</span> TRX</p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+
+
+                        <!--Withdraw Diamond Input-->
+                        <input class="p-1 border border-info" id='input_panel_1_withdraw' placeholder="1000"
+                            type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+
+                    <!--Withdraw diamond button-->
+                    <button class="btn btn-primary" id='button_panel_1_withdraw'>Withdraw</button>
+
+                </div>
+            </div>
+
+
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container "
+                    style="background-color: rgb(191, 248, 236); border-radius: 15px;padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700;margin-bottom: 40px;">Platinum</h3>
+
+                    <!--Total Profit in gold-->
+                    <p style="font-size: 20px;">Your Total Profit Till Time <br><span
+                            style="font-size: 25px;font-weight: 700;" id="profit_p2_ps">XXXXXX</span> TRX</p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+                        <input class="p-1 border border-info" id='input_panel_2_withdraw' placeholder="1000"
+                            type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+                    <button class="btn btn-primary" id='button_panel_2_withdraw'>Withdraw</button>
+
+                </div>
+            </div>
+
+
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container "
+                    style="background-color: rgb(191, 246, 248); border-radius: 15px;padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700;margin-bottom: 40px">Gold Plan</h3>
+                    <p style="font-size: 20px;">Your Total Profit Till Time <br><span
+                            style="font-size: 25px;font-weight: 700; " id="profit_p3_ps">XXXXXX</span> TRX</p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+                        <input class="p-1 border border-info" id='input_panel_3_withdraw' placeholder="1000"
+                            type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+                    <button class="btn btn-primary" id='button_panel_3_withdraw'>Withdraw</button>
+
+                </div>
+            </div>
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container"
+                    style="background-color: rgb(191, 248, 239); border-radius: 15px;padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700; margin-bottom: 40px;">Referal Profit</h3>
+                    <p style="font-size: 20px;">Your Total Referal Profit : <span
+                            style="font-size: 25px;font-weight: 700;" id="referal_profit_wd">XXXXXX</span> TRX</p>
+
+                    <div class="pb-2">
+
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIyNTZweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjIxIDI1NiIgd2lkdGg9IjIyMXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iQ2xhc3NpYyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwQzBFMEYiIGlkPSJUUk9OIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzAwLjAwMDAwMCwgLTMyNzkuMDAwMDAwKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLjAwMDAwMCwgMzI3OS4wMDAwMDApIj48cGF0aCBkPSJNMTA2LjE0NjkzNCwxMjEuMzIyNjI0IEwxNS4xMjAxNjksMTEuNTU2NzgzIEwxNzMuMTM1NzU3LDQ5Ljg4MzQ0OTMgTDEwNi4xNDY5MzQsMTIxLjMyMjYyNCBaIE0xMTYuNTQ0NDIxLDExOC40NzQzMzggTDE3OC42NzgxMjIsNTEuNzM5MzIyMyBMMjA2Ljc3NTA1LDcxLjM2Mjk2MTIgTDExNi41NDQ0MjEsMTE4LjQ3NDMzOCBaIE0xODAuNTkzNjgzLDQyLjU4MzgzMDYgQzY5LjQ4MTg1NjMsMTUuMzA4NTk0OCAxMS41MjI4NzA2LDEuMTk0MjkwMzQgNi43MTY3MjYxNywwLjI0MDkxNzMxNyBDLTAuNDkyNDkwNDA0LC0xLjE4OTE0MjIyIC0wLjMzNTA5NTEyNiw0LjEyOTcyNTcgMC4yNTM1Mzc0NjQsNi4xNDA5MzYwMSBDMC44NDIxNzAwNTQsOC4xNTIxNDYzMyA4OC4wNDIzODMsMjUwLjIzMDM5NyA4OS4yMTU0OTIzLDI1My40OTk1NTcgQzkwLjM4ODYwMTYsMjU2Ljc2ODcxNiA5NS4wNDM3NDIzLDI1Ni44OTc2MjMgOTcuNDM4MzczMywyNTMuNDk5NTU3IEM5OS4wMzQ3OTQsMjUxLjIzNDE3OSAxMzkuNjgxOCwxOTIuMTY1NDEzIDIxOS4zNzkzOTIsNzYuMjkzMjU5NyBDMjIwLjM4MDk5Niw3NC44NTQ4ODE4IDIyMC45NjE0MjMsNzAuMzQ5NjI2MSAyMTcuODM5MDk1LDY4LjMwMzk3NjIgQzIxNC43MTY3NjYsNjYuMjU4MzI2MiAxODIuMjYzODI4LDQzLjEyMDU1ODkgMTgwLjU5MzY4Myw0Mi41ODM4MzA2IFogTTk2LjY0MzM4MzQsMjM5LjI1MjI4MSBMMTA4LjAyMjY2MSwxMjguOTEwNjc1IEwyMDcuODcwOTAxLDc3LjE1NzU3MDkgTDk2LjY0MzM4MzQsMjM5LjI1MjI4MSBaIE03LjcxMzQwNDk1LDExLjE5OTM0NCBMMTAyLjkwMTEzNywxMjUuODg2MjQ4IEw5MC43NTE0MjU0LDI0MS43NDM3MDcgTDcuNzEzNDA0OTUsMTEuMTk5MzQ0IFoiIGlkPSJMb2dvIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+                            width="18">
+                        <input class="p-1 border border-info" id='input_referal_profit_withdraw' placeholder="1000"
+                            type="amount"
+                            style="border:none; border-radius: 5px; font-weight: bolder; font-size: larger; text-align: right;"
+                            size="13">
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+                    <button class="btn btn-primary" id='button_referal_profit_withdraw'>Withdraw</button>
+
+                </div>
+            </div>
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container"
+                    style="background-color: rgb(191, 248, 239); border-radius: 15px;padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700; margin-bottom: 40px;">Platinum Plan </h3>
+                    <p style="font-size: 20px;">Withdraw all Profit and Invested amount <br><span
+                            style="font-size: 25px;font-weight: 700; " id="panel_2_withdraw_all">XXXXXX</span></p>
+
+                    <div class="pb-2">
+
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+                    <button class="btn btn-primary" id='button_panel_2_withdraw_all'>Withdraw All</button>
+
+                </div>
+            </div>
+
+            <div data-aos="flip-down" class="col-sm-4 col-md-4 col-xl-4 mb-2 p-2">
+                <div class="container"
+                    style="background-color: rgb(191, 248, 239); border-radius: 15px;padding-top: 20px;padding-bottom: 30px;margin-bottom: 10px;">
+                    <h3 style="font-weight: 700;  margin-bottom: 40px;">Gold Plan</h3>
+                    <p style="font-size: 20px;">Withdraw all Profit and Invested amount<br><span style="font-size: 25px;font-weight: 700;"
+                            id="panel_3_withdraw_all">XXXXXX</span></p>
+
+                    <div class="pb-2">
+
+                        <h5 class="text-danger" style="display: inline; font-weight: bold; ">TRX</h5>
+
+                    </div>
+                    <button class="btn btn-primary" id='button_panel3_withdraw_all'>Withdraw All</button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Get ID AS level-no-referrals  and assign number of referrals from smart contract -->
+
+    <div data-aos="zoom-in" class="container-fluid" style="background-color: whitesmoke;">
+        <div class="container rounded" style="background-color: rgb(231, 237, 241); border-radius: 10px;">
+            <h2 class="text-center mb-3 mt-3 pt-3"
+                style="font-family: 'Russo One', sans-serif;text-decoration: underline;">Referral Corner</h2>
+            <hr>
+            <div class="input-group" style="margin-bottom: 60px;margin-top: 40px;">
+                <input readonly type="text" id='my_link' class="form-control" placeholder="My Referal Link"
+                    aria-label="Recipient's username" aria-describedby="basic-addon2"
+                    style="font-size: 20px;font-weight: 600;">
+                <div class="input-group-append">
+                    <button class="btn btn-info btn-lg" id='copy_button' style="font-weight: 600;">Copy</button>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div data-aos="flip-up" class="card border-danger mb-3 text-center">
+                    <div class="card-header">Level-1</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title"><span id="ref_level_1">0</span> - Referrals</h5>
+                        <p class="text-small">Reward - 5 %</p>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="card border-success mb-3 text-center">
+                    <div class="card-header">Level-2</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title"><span id="ref_level_2">0</span> - Referrals</h5>
+                        <p class="text-small">Reward - 2 %</p>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="card border-info mb-3 text-center">
+                    <div class="card-header">Level-3</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title"><span id="ref_level_3">0</span> - Referrals</h5>
+                        <p class="text-small">Reward - 0.5 %</p>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="card border-primary mb-3 text-center">
+                    <div class="card-header">Level-4</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title"><span id="ref_level_4">0</span> - Referrals</h5>
+                        <p class="text-small">Reward - 0.5 %</p>
+                    </div>
+                </div>
+                <div class="input-group container">
+
+                    <input readonly type="text" id="referred_by" class="form-control"
+                        placeholder="Referred By">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">Reference Address</span>
+                    </div>
+    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <hr>
+
+
+
+    <div data-aos="fade-up" class="container-fluid p-5" style="background-color:whitesmoke">
+        <h2 class="text-center mb-3 mt-3 pt-3" style="font-family: 'Russo One', sans-serif;text-decoration: underline;">
+            FAQ</h2>
+
+        <div class="row">
+            <div data-aos="fade-up" class="col-sm-3 text-center text-dark p-4" style="border-radius: 50px;">
+                <h4>What makes this safe and clear project?</h4> <br>
+                All transactions will be verifiable and irreversible on the blockchain.
+                You can
+                view all of the transactions from ALL members
+            </div>
+
+
+            <div data-aos="fade-up" class="col-sm-3  text-center text-dark p-4" style="border-radius: 50px;">
+                <h4>What is referral program?</h4> <br>
+                TronMegaChain smart contract set 3 tiers of referral rewards, which are 5%, 2%, and 0.5% respectively.
+                Moreover, the invitee can also get 0.5% of his/her own investment as rewards. The referral rewards are
+                distributed to your balance automatically and you can withdraw at anytime.
+            </div>
+
+            <div data-aos="fade-up" class="col-sm-3  text-center text-dark p-4" style="border-radius: 50px;">
+                <h4>How is the fund distributed?</h4> <br>
+                Technical support: 3% Referral: 5%-2%-0.5%-0.5%
+            </div>
+
+            <div data-aos="fade-up" class="col-sm-3  text-center text-dark p-4" style="border-radius: 50px;">
+                <h4>Is this a long-term project?</h4> <br>
+                YES，We are committed to building a longevity & sustainability community, so we have designed the
+                competitive
+                and safe
+                ROI to ensure the long-term operation of this project. If you agree with our philosophy, please join us
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Site footer -->
+    <footer class="site-footer mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6" id="this_about">
+                    <h6>About</h6>
+                    <p class="text-justify">Invest in TronMegaChain and get profit upto more than 12% per day .
+                        Refer your address to other users and earn more profit on their investment.<br><i
+                            style="font-weight: 500;font-size: 16px;">Every Investment has its own risk. Consider this
+                            as a
+                            gambling and invest only the TRX that you can afford to lose. You may earn a huge profit or
+                            end
+                            up losing your money. Invest in this only if you are willing to take the risk.</i>
+                    </p>
+                </div>
+
+
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li>Contact Us &nbsp; <a href="twitter.com" target="_blank"><i class="fab fa-twitter-square"
+                                    style="color: #ffffff ; font-size: 20px;"></i></a>&nbsp;&nbsp;
+
+                            <a href="https://t.me/Tronmegachain" target="_blank"><i class="fab fa-telegram "
+                                    style="color: #ffffff; font-size: 20px;"></i></a></li>
+                        <span style="padding-top: 20px;">
+
+                        </span>
+                        <li><a href="">Contract</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
