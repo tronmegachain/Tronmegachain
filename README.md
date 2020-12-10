@@ -1,4 +1,4 @@
-# Tronmegachain Project 2020
+# TRONMEGACHAIN PROJECT 2020
 # TRONMEGACHAIN IS  DECENTRALIZED INVESTMENT FUND WITH AN OPEN SMART CONTRACT.
 #
 #
@@ -48,4 +48,7 @@ tronmegachain@gmail.com
 #
 # TELEGRAM OFFICIAL
 https://t.me/Tronmegachain
+
+# MEDIUM OFFICIAL
+https://medium.com/@tronmegachain
 
